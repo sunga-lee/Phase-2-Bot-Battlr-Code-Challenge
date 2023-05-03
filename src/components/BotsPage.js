@@ -7,7 +7,7 @@ import SortBar from "./SortBar";
 
 
 function BotsPage() {
-  
+  //start here with your code for step one
   const botsUrl = " http://localhost:8002/bots";
   const [bots, setBots] = useState([]);
   const [botsListed, setBotsListed] = useState([]);

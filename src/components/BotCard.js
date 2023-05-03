@@ -49,7 +49,7 @@ function BotCard({ bot, handleBotActionClick }) {
                 className="ui mini red button"
                 onClick={(event)=>{
                   event.stopPropagation()
-                  
+                  // eslint-disable-next-line
                   {handleBotActionClick(bot, "release-bot")}}}
               >
                 x
